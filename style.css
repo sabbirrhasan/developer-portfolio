@@ -20,7 +20,7 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .half-width{
     width: 50%;
@@ -47,4 +47,9 @@ div h1{
 }
 .colored-text{
     color: orange;
+}
+.dream-banner{
+    background: url(images/dream-bg.png) no-repeat;
+    background-position: right;
+    padding: 100px 170px 140px 50px;
 }
