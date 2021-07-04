@@ -2,10 +2,6 @@
     margin: 0;
     padding-right: 0;
 }
-.fixed-width{
-    width: 1300px;
-    margin: auto;
-}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -16,11 +12,12 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 150px 100px 150px;
+    /* padding-left: 14.5%; */
+    /* padding: 0 150px 100px 150px; */
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -31,6 +28,7 @@ h1{
 }
 .welcome-section{
     margin-top: 100px;
+    padding-left: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -50,8 +48,15 @@ div h1{
 }
 .dream-banner{
     background: url(images/dream-bg.png) no-repeat;
-    background-position: right;
-    padding: 100px 170px 140px 50px;
+    background-position: right center;
+}
+.dreambig-section{
+    margin-top: 100px;
+    padding-right: 10%;
+}
+.experience-section{
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: left center;
 }
 #experience-item-full{
     width: 40%;
@@ -87,4 +92,24 @@ footer{
     background-color: #d35400;
     padding: 15px;
     color: white;
+}
+.welcome-section h1 span:hover{
+    color: #c0392b;
+    transition: all .3s ease;
+}
+.link-button-animation{
+    text-decoration: none;
+    background-color: rgb(248, 73, 42);
+    color: white;
+    padding: 15px 35px;
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 3px solid rgb(255, 78, 137);
+}
+.link-button-animation:hover{
+    color: rgb(102, 9, 189);
+    background-color: transparent;
+    transition: all .5s ease;
 }
